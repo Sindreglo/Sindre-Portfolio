@@ -189,7 +189,6 @@ body.dark-theme {
   font-size: var(--smaller-font-size);
   font-weight: 500;
   color: var(--text-color);
-  margin-bottom: 1rem;
 }
 
 .profile__social {
@@ -512,9 +511,15 @@ body.dark-theme {
   .profile__perfil img {
     width: 90px;
   }
-  .profile__profession {
-    margin-bottom: 1.5rem;
+
+  .profile__profession__top {
+    margin-bottom: 0.5rem;
   }
+
+  .profile__profession__btm {
+    margin-bottom: 0.5rem;
+  }
+
   .profile__info {
     column-gap: 3rem;
   }
